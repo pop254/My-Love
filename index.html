@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Secret World 🌹</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="orb1 gradient-orb"></div>
+<div class="orb2 gradient-orb"></div>
+<div class="orb3 gradient-orb"></div>
+<canvas id="bg-canvas"></canvas>
+
+<div id="gate">
+  <div class="gate-card">
+    <span class="gate-rose">🌹</span>
+    <h2 class="gate-title">You are my favorite hello and my hardest goodbye</h2
+    <p class="gate-sub"><img src="https://i.pinimg.com/736x/74/a9/82/74a9826afac6e974e56ddf3246093493.jpg" alt="Secret Image" style="width: 100px; height: 100px;"></p>
+    <div class="pw-wrap">
+      <input type="password" id="pw-input" placeholder="enter our secret word" autocomplete="off">
+    </div>
+    <button class="gate-btn" onclick="checkPassword()">✦ Enter ✦</button>
+    <p class="gate-error" id="gate-error">❌YOU MISS AGAIN IMMA COME OVER AND FUCK YOU🤭</p>
+  </div>
+</div>
+
+<div id="main">
+  <header>
+    <h1>Our Secret World </h1>
+    <p><img src="https://i.pinimg.com/736x/21/a4/15/21a4158f753f110ab3a11ba00cc6a862.jpg" alt="Secret Image" style="width: 100px; height: 100px;"></p>
+  </header>
+
+  <h2 class="section-title">Hidden Memories
+    <span>scratch to reveal our moments</span>
+  </h2>
+  <div class="scratch-grid" id="scratch-grid"></div>
+  <div style="text-align:center; margin-top:25px;">
+  <button id="restoreBtn" class="gate-btn" style="max-width:300px;">
+    💖 Restore Memories
+  </button>
+    </div>
+
+  <h2 class="section-title"><img src="https://i.pinimg.com/736x/6e/fe/55/6efe5518e16ccafc05214e60d8c20158.jpg" alt="Secret Image" style="width: 100px; height: 100px;">
+    <span>flip to read what I feel</span>
+  </h2>
+  <div class="word-grid" id="word-grid"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
