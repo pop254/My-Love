@@ -20,7 +20,7 @@ const WORD_MESSAGES = [
   "dance naked for 1 minute and send it to me",
   "lick my nipples for 2 minutes",
   "moan while calling my name in a voice note and send it to me",
-  "seduce me and fuck me until i say enough",
+  "seduce me and fuck me until i can't take it anymore",
   "lick me and for 2 minutes",
   "french kiss me for 5 minutes",
   "tell me a secret no one knows",
