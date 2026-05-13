@@ -1,5 +1,5 @@
 
-const PASSWORD = "ILOVEYOU"; // ← change this
+const PASSWORD = "Iloveyou"; // ← change this
 
 const SCRATCH_PHOTOS = [
   "https://sexpositions.club/wp-content/uploads/2019/06/15_23.png",
